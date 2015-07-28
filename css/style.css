@@ -1,0 +1,20 @@
+.h1m 
+{
+	font-size: 3em;
+	color: red;
+	text-align: center;
+}
+
+.know
+{
+	text-align: center;
+	color: black;
+	font-size: 2em;
+}
+
+#secret
+{
+	font-size: 4em;
+	letter-spacing: 0.5em;
+	text-align: center;
+}

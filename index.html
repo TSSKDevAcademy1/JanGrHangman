@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	
+	 <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">	
+
+	<meta charset="utf-8">
+
+	<link rel="icon" href="images/favicon.png">
+
+	<title>Hangman</title>	
+</head>
+
+<body>
+
+<h1 class="h1m">Hangman</h1>
+
+<div class="row text-center">
+	<div class="col-md-111">		<!-- 111 -->
+  		<img src="images/phase0.png" id="picture" alt="Picture not load">  <!-- image -->
+  	</div>
+</div>
+
+<div class="row text-center">
+	<div class="col-md-13"> <!-- 11 -->
+		<span id="secret" class="know" style="float: center"></span>
+	</div>
+</div>
+
+<!-- buttons -->
+<div class="col-md-12 text-center">
+	<div id="buttons"></div>
+</div>
+
+<div class="row text-center">
+	<div class="col-md-111">
+		<div class="btn-group" role="group" aria-label="...">
+ 			<button type="Restart" class="btn btn-default btn-restart" id="restart">Restart</button>
+ 		</div>
+	</div>
+</div>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script src="js/hangman.js"></script>
+
+<span style="float: center" class="know" id="secret">
+
+</body>
+</html>
